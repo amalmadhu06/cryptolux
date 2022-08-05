@@ -1,1 +1,18 @@
 
+/* Importing Montserrat font from Google fonts (Light 300, Regular 400, extra bold 800) */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;800&display=swap');
+
+/* Basic styling for the app */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+
+/* Basic styling for text  */
+a{
+  text-decoration: none;
+  color: gold;
+}
