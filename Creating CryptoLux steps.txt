@@ -1,0 +1,40 @@
+Creating Cryptolux
+
+1. Creating a react app 
+Command: npx create-react-app
+
+2. Installing @material-ui/core and @material-ui/lab for stylling the react app
+Command : npm i @material-ui/core @material-ui/lab
+
+3. Installed react router dom for adding multiple pages to the react app. 
+Command : npm i react-router-dom
+
+4. Basic styling in App.css, Importing fonts from Google Fonts
+
+5. Create Pages, components folder inside src
+
+6. Create a file Header.js inside src/components
+
+7. Create a header component inside src/components/Header.js 
+
+8. Add <BrowserRouter> </BrowserRouter> inside App.js App function. Add the Header component inside it
+
+9. Create a file Homepage.js inside src/Pages
+
+10. Inside App.js add the below line of code after <Header />
+<Route path='/' component= {Homepage} />
+
+11. Create a file CoinPage.js inside pages
+
+12. Add the component to App.js as we did for Homepage. Use /coins/:id as path. 
+
+
+
+
+
+
+
+
+
+
+
